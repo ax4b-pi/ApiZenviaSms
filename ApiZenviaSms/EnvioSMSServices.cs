@@ -26,7 +26,6 @@ namespace EnvioSMS
 
             string adicionar = "\"";
             string To = adicionar + zenviaRequest.Telefone + adicionar;
-            //string TOKEN = "cJiXd0tTOr7M9vmAGlHfU20_xN5SMvBDiTcq";
             string conteudo = adicionar + zenviaRequest.Mensagem + adicionar;
 
             // https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests
